@@ -1,0 +1,14 @@
+form {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+form > div {
+  display: flex;
+}
+
+form > div > label,
+form > div > textarea,
+form > div > input {
+  flex: 1;
+}
